@@ -10,9 +10,9 @@
 		<phingcall target="pdepend" />
 	</target>
 	<target name="createdir">
-		<mkdir dir="build" />
-		<mkdir dir="build/logs" />
-		<mkdir dir="tests" />
+		<mkdir dir="${project.basedir}/build" />
+		<mkdir dir="${project.basedir}/build/logs" />
+		<mkdir dir="${project.basedir}/tests" />
 	</target>
 	<target name="phpunit">
 		<exec logoutput="true" dir="${project.basedir}/tests" command="phpunit" escape="false" />
