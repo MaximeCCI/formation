@@ -23,7 +23,7 @@
 		</phpmd>
 	</target>
 	<target name="phpcpd">
-		<phpcpd file="${project.basedir}/www">
+		<phpcpd dir="${project.basedir}/www">
 			<formatter type="pmd" outfile="${project.basedir}/build/logs/pmd-cpd.xml" />
 		</phpcpd>
 	</target>
