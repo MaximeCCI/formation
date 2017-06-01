@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<project name="indus" basedir="C:\xampp\htdocs\www\formation" default="main">
+<project name="indus" basedir="." default="main">
 	<target name="main">
 		<phingcall target="createdir" />
 		<phingcall target="phpunit" />
