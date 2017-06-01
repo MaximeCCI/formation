@@ -2,7 +2,7 @@
 <phpdox xmlns="http://xml.phpdox.net/config">
  <project name="Example" source="${basedir}" workdir="${basedir}/build/api/xml">
    <collector backend="parser" />
-   <generator output="${basedir}">
+   <generator output="${basedir}/html">
      <build engine="html" output="html"/>
    </generator>
  </project>
