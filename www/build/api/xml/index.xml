@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="C:/xampp/htdocs/www/formation/www">
+  <namespace name="">
+    <class name="calc" src="calc.php" description="Returns an Image object that can then be painted on the screen." xml="classes/calc.xml"/>
+  </namespace>
+</index>

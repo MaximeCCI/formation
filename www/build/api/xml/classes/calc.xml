@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="calc" namespace="" name="calc" abstract="false" final="false" start="14" end="44">
+  <file path="C:/xampp/htdocs/www/formation/www" file="calc.php" realpath="C:/xampp/htdocs/www/formation/www/calc.php" size="1031" time="2017-05-31T09:57:39+02:00" unixtime="1496217459" sha1="b95f5bd6d083ca32be59caef64e8a2f10275dee0" relative="calc.php"/>
+  <docblock>
+    <description compact="Returns an Image object that can then be painted on the screen.">The url argument must specify an absolute <link xmlns="http://xml.phpdox.net/src" value="URL"/>. The name
+argument is a specifier that is relative to the url argument.
+&lt;p&gt;
+This method always returns immediately, whether or not the
+image exists. When this applet attempts to draw the image on
+the screen, the data will be loaded. The graphics primitives
+that draw the image will incrementally paint on the screen.
+</description>
+  </docblock>
+  <method name="sum" start="23" end="26" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="texte du docblok"/>
+      <param description="argument" variable="$arg1" type="object">
+        <type full="premier" namespace="" name="premier"/>
+      </param>
+      <param description="argument" variable="$arg2" type="object">
+        <type full="2eme" namespace="" name="2eme"/>
+      </param>
+      <return description="sortie" type="object">
+        <type full="$res" namespace="" name="$res"/>
+      </return>
+    </docblock>
+    <parameter name="arg1" byreference="false" type="{unknown}"/>
+    <parameter name="arg2" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="minus" start="28" end="31" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="arg1" byreference="false" type="{unknown}"/>
+    <parameter name="arg2" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="multi" start="33" end="36" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="arg1" byreference="false" type="{unknown}"/>
+    <parameter name="arg2" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="divid" start="38" end="42" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="arg1" byreference="false" type="{unknown}"/>
+    <parameter name="arg2" byreference="false" type="{unknown}"/>
+  </method>
+</class>
