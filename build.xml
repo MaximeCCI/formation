@@ -22,8 +22,11 @@
 			<formatter type="xml" outfile="${project.basedir}/build/phpmd.xml" />
 		</phpmd>
 	</target>
-	<target name="phpcpd">
-		<phpcpd dir="${project.basedir}/www">
+	<target name="phpcpd">		
+		<phpcpd>
+			<fileset dir="${project.basedir}">
+				<include name="**/*.php" />
+			</fileset>
 			<formatter type="pmd" outfile="${project.basedir}/build/logs/pmd-cpd.xml" />
 		</phpcpd>
 	</target>
