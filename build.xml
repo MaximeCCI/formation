@@ -39,11 +39,9 @@
 		</phpcodesniffer>		
 	</target>
 	<target name="phpdox">
-		<exec executable="phpdox -f ${project.basedir}/www/phpdox.xml">
-            <arg value="${project.basedir}" />
+		<exec command="phpdox -f ${project.basedir}/www/phpdox.xml">
         </exec>
 	</target>
-
 	<target name="pdepend">
 		<phpdepend>
 			<fileset dir="${project.basedir}/www">
