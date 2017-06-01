@@ -13,6 +13,7 @@
 		<mkdir dir="${project.basedir}/build" />
 		<mkdir dir="${project.basedir}/build/logs" />
 		<mkdir dir="${project.basedir}/tests" />
+		<mkdir dir="${project.basedir}/html" />
 	</target>
 	<target name="phpunit">
 		<exec logoutput="true" dir="${project.basedir}/tests" command="phpunit" escape="false" />
