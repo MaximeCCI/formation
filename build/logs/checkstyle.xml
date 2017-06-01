@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="2.9.1">
+<file name="C:\xampp\htdocs\www\formation\www\calc.php">
+ <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+ <error line="14" column="12" severity="error" message="Opening brace of a class must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+ <error line="23" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="23" column="22" severity="warning" message="Variable &quot;arg1&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="23" column="29" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="23" column="36" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="24" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="24" column="10" severity="warning" message="Variable &quot;arg1&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="24" column="18" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="25" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="26" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="28" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="28" column="24" severity="warning" message="Variable &quot;arg1&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="28" column="31" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="28" column="38" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="29" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="29" column="10" severity="warning" message="Variable &quot;arg1&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="29" column="18" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="30" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="31" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="33" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="33" column="24" severity="warning" message="Variable &quot;arg1&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="33" column="31" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="33" column="38" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="34" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="34" column="10" severity="warning" message="Variable &quot;arg1&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="34" column="18" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="35" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="36" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="38" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="38" column="24" severity="warning" message="Variable &quot;arg1&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="38" column="31" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="38" column="38" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="39" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="39" column="7" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="40" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="40" column="10" severity="warning" message="Variable &quot;arg1&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="40" column="18" severity="warning" message="Variable &quot;arg2&quot; contains numbers but this is discouraged" source="Zend.NamingConventions.ValidVariableName.ContainsNumbers"/>
+ <error line="41" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="42" column="1" severity="error" message="Spaces must be used to indent lines; tabs are not allowed" source="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
+ <error line="45" column="1" severity="error" message="A closing tag is not permitted at the end of a PHP file" source="Zend.Files.ClosingTag.NotAllowed"/>
+</file>
+</checkstyle>
+

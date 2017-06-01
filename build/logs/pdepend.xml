@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2017-06-01T09:28:00" pdepend="@package_version@" ahh="0" andc="0" calls="0" ccn="5" ccn2="5" cloc="18" clsa="0" clsc="1" eloc="21" fanout="0" leafs="1" lloc="14" loc="45" maxDIT="0" ncloc="27" noc="1" nof="0" noi="0" nom="4" nop="1" roots="0">
+  <files>
+    <file name="C:\xampp\htdocs\www\formation\www\calc.php" loc="45" cloc="18" eloc="21" lloc="14" ncloc="27"/>
+  </files>
+  <package name="+global" noc="1" noi="0" nom="4" nof="0">
+    <class name="calc" fqname="+global\calc" start="14" end="44" loc="31" cloc="7" eloc="17" lloc="10" ncloc="24" dit="0" noam="0" nocc="0" noom="0" nom="4" ca="0" cbo="0" ce="0" impl="0" cis="4" csz="4" npm="4" vars="0" varsi="0" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="C:\xampp\htdocs\www\formation\www\calc.php"/>
+      <method name="sum" start="23" end="26" ccn="1" ccn2="1" loc="4" cloc="0" eloc="4" lloc="2" ncloc="4" npath="1" hnt="9" hnd="11" hv="31.134884567736" hd="5.25" hl="0.19047619047619" he="163.45814398061" ht="9.0810079989229" hb="0.0099651334916741" hi="5.9304542033782" mi="76.276445128352"/>
+      <method name="minus" start="28" end="31" ccn="1" ccn2="1" loc="4" cloc="0" eloc="4" lloc="2" ncloc="4" npath="1" hnt="9" hnd="11" hv="31.134884567736" hd="5.25" hl="0.19047619047619" he="163.45814398061" ht="9.0810079989229" hb="0.0099651334916741" hi="5.9304542033782" mi="76.276445128352"/>
+      <method name="multi" start="33" end="36" ccn="1" ccn2="1" loc="4" cloc="0" eloc="4" lloc="2" ncloc="4" npath="1" hnt="9" hnd="11" hv="31.134884567736" hd="5.25" hl="0.19047619047619" he="163.45814398061" ht="9.0810079989229" hb="0.0099651334916741" hi="5.9304542033782" mi="76.276445128352"/>
+      <method name="divid" start="38" end="42" ccn="2" ccn2="2" loc="5" cloc="0" eloc="5" lloc="4" ncloc="5" npath="2" hnt="13" hnd="18" hv="54.20902501875" hd="6.2857142857143" hl="0.15909090909091" he="340.742442975" ht="18.930135720833" hb="0.016261586007569" hi="8.6241630711648" mi="72.341695495774"/>
+    </class>
+  </package>
+</metrics>
