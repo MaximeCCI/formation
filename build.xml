@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<project name="indus" basedir="C:\xampp\htdocs\formation" default="main">
+	<target name="main">
+		<phingcall target="createdir" />
+		<phingcall target="phpunit" />
+		<phingcall target="phpmd" />
+		<phingcall target="phpcpd" />
+		<phingcall target="phpcs" />
+		<phingcall target="phpdox" />
+		<phingcall target="pdepend" />
+	</target>
+	<target name="createdir">
+		<mkdir dir="build" />
+		<mkdir dir="build/logs" />
+		<mkdir dir="tests" />
+	</target>
+	<target name="phpunit">
+		<exec logoutput="true" dir="${project.basedir}/tests" command="phpunit" escape="false" />
+	</target>
+	<target name="phpmd">
+		<phpmd file="${project.basedir}/www">
+			<formatter type="xml" outfile="${project.basedir}/build/phpmd.xml" />
+		</phpmd>
+	</target>
+	<target name="phpcpd">
+		<phpcpd file="${project.basedir}/www">
+			<formatter type="pmd" outfile="${project.basedir}/build/logs/pmd-cpd.xml" />
+		</phpcpd>
+	</target>
+	<target name="phpcs">		
+		<phpcodesniffer standard="Zend">
+			<fileset dir="${project.basedir}/www">
+				<include name="**/*.php" />
+			</fileset>
+			<formatter type="checkstyle" outfile="${project.basedir}/build/logs/checkstyle.xml" />
+		</phpcodesniffer>		
+	</target>
+	<target name="phpdox">
+		<exec executable="phpdox">
+            <arg value="${project.basedir}" />
+        </exec>
+	</target>
+
+	<target name="pdepend">
+		<phpdepend>
+			<fileset dir="${project.basedir}/www">
+				<include name="**/*.php" />
+			</fileset>
+			<logger type="summary-xml" outfile="build/logs/pdepend.xml"/>
+			<analyzer type="coderank-mode" value="method"/>
+		</phpdepend>
+	</target>
+</project>

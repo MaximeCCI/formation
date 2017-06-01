@@ -1,0 +1,19 @@
+<phpunit>
+	<testsuites>
+		<testsuite name="My Test Suite">
+			<directory>./</directory>
+		</testsuite>
+	</testsuites>
+	
+	<filter>
+		<whitelist>
+			<directory suffix=".php">../www</directory>
+		</whitelist>
+	</filter>
+	
+	<logging>
+		<log type="coverage-html" target="../../build/coverage" title="Name of" charset="UTF-8" yui="true" hightlight="true" lowUpperBound="35" highLowerBound="70"/>
+		<log type="covergae-clover" target="../../build/logs/clover.xml"/>
+		<log type="junit"  target="../../build/logs/juinit.xml" logIncompleteSkipped="false"/>
+	</logging>
+</phpunit>
