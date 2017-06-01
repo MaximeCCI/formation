@@ -40,7 +40,7 @@
 		</phpcodesniffer>		
 	</target>
 	<target name="phpdox">
-		<exec command="phpdox" />
+		<exec command="phpdox" dir="${project.basedir}/www" />
 	</target>
 	<target name="pdepend">
 		<phpdepend>
